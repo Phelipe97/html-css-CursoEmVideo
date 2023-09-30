@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'sons';
+            src: url('fonts/Sons of Pain M.C..ttf')format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        
+            /* 
+                Tipos de format()
+                -opentype(otf)
+                -truetype(ttf)
+                -embeddad - opentype
+                -truetype-aat (Apple Advanced Typography)
+                -svg
+            */
+        }
+        @font-face{
+            font-family: 'lato';
+            src: url('fonts/Lato-Regular.ttf')format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'sons', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'lato',sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima eum, nobis odio, at consequuntur quod nemo sint quidem cupiditate, quasi laudantium? Magnam aspernatur expedita culpa consectetur, recusandae quo est!</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio id pariatur dolorum, sit eligendi error soluta vero minus voluptatibus eaque numquam velit placeat iste, sequi deserunt sapiente! Earum, ducimus placeat.</p>
+</body>
+</html>
