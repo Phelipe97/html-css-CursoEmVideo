@@ -1,6 +1,6 @@
 <h1>Html5-Css3-Curso Em Video</h1>
 
-Curso de html e css com gustavo gustavo guanabara do Curso em Video
+Curso de iniciante em html e css com Gustavo Guanabara do Curso em Video
 
 <div>
   <h3>Tecnologias aprendidas nessas atividades:</h3>
