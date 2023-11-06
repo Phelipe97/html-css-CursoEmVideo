@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        caption{
+            background-color: blue;
+            padding: 8px;
+            border-radius: 10px 10px 0px 0px;
+            color: white;
+        }
+        body{
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .verde{
+            background-color: green;
+        }
+        .amarelo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Brasileira</h1>
+    <table>
+        <colgroup>
+            <col class="verde">
+            <col class="amarelo" span="2">
+            <col class="verde">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>50</td>
+            <td>Tecnico de Segurança</td>
+        </tr>
+        <tr>
+            <td>Raphael</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>51</td>
+            <td>Dona de Casa</td>
+        </tr>
+        <tr>
+            <td>Phelipe</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Nalva</td>
+            <td>F</td>
+            <td>70</td>
+            <td>Cozinheira</td>
+        </tr>
+    </table>
+</body>
+</html>
