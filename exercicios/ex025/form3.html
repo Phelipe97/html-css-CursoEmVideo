@@ -6,6 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Texte de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Media</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5" required>
+        </p>
+        <p>
+            <label for="imonth">Periodo letivo</label>
+            <input type="month" name="month" id="imonth" value="2023-11">
+        </p>
+        <p>
+            <label for="idate">Dia da Prova</label>
+            <input type="date" name="date" id="idate" value="2023-11-18">
+        </p>
+        <p>
+            <label for="itime">Horario da Prova</label>
+            <input type="time" name="time" id="itime">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
