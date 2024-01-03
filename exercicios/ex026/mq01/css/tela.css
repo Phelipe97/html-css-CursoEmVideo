@@ -1,0 +1,54 @@
+/* estilização para tela*/
+
+*{
+    padding:0;
+    margin: 0;
+}
+html{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(214, 216, 219);
+}
+header{
+    background-color: #bebebe;
+}
+main{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5em;
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: #686767;
+}
+li{
+    background-color: #2c2c2c;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+li:hover{
+    color: rgb(255, 161, 74);
+    cursor: pointer;
+    background-color: #686767;
+    text-decoration: underline;
+}
+article{
+    width: 600px;
+    margin: 0 auto;
+    line-height:25px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
