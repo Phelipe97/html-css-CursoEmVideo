@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* todas as demais medias */
+
+/* 
+    Typical device breakpoints:
+
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+
+*/
+
+/* impressão */
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;  
+    }
+    body{
+        background: url(../imagens/back-print.jpg) no-repeat; /* desnecessario */
+        height: auto;
+    }
+    main{
+        border: 1px solid black;
+    }
+    main h1{
+        width: 90%;
+        text-shadow: none;
+        color: black;
+    }
+    main::after{
+        font-size: 14px;
+        content: 'Essa impressão foi feita atraves de uma atividade de programação';
+        text-decoration: overline;
+    }
+    #phone{
+        display: none;
+    }
+    #print{
+        display: block;
+    }
+}
+
+/* tablet */
+@media screen and (min-width:490px) and (max-width:768px) {
+    body{
+        background: url(../imagens/back-tablet.jpg) no-repeat;
+    }
+    #phone{
+        display: none;
+    }
+    #tablet{
+        display: block;
+    }
+}
+
+/* laptop */
+@media screen and (min-width:769px) and (max-width:1600px) {
+    body{
+        background: url(../imagens/back-pc.jpg) no-repeat;
+    }
+    #phone{
+        display: none;
+    }
+    #pc{
+        display: block;
+    }
+}
+
+/* tv */
+@media screen and (min-width:1601px)  {
+    body{
+        background: url(../imagens/back-tv.jpg) no-repeat;
+    }
+    #phone{
+        display: none;
+    }
+    #tv{
+        display: block;
+    }
+}
