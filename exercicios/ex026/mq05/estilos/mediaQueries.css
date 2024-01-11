@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* todas as demais medias */
+
+/* 
+    Typical device breakpoints:
+
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+
+*/
+
+@media screen and (min-width:768px) {
+    #burger{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu li {
+        display: inline-block;
+        width: 100px;
+    }
+    menu a {
+        border-radius: 10px;
+        border: 0;
+    }
+    main{
+        max-width: 768px;
+    }
+}
