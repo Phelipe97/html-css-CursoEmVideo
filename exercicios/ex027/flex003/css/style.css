@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    background-color: lightcoral;
+    flex-flow: row wrap;
+    /* flex-direction:row;
+    flex-wrap:wrap; */
+}
+.item{
+    flex: auto;
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
