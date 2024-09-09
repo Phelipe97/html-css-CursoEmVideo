@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+    flex-flow: row wrap;
+}
+.item{ 
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;   
+}
+#i1{
+    order:6;
+}
+#i2{
+    order:5;
+}
+#i3{
+    order:4;
+}
+#i4{
+    order:3;
+}
+#i5{
+    order:2;
+}
+#i6{
+    order:1;
+}
