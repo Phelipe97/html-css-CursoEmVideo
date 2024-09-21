@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+    flex-flow: row wrap;
+    height: 20vh;
+}
+.item{ 
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;   
+}
+#i1{
+    order:6;
+    align-self: flex-end;
+}
+#i2{
+    order:5;
+    align-self: center;
+}
+#i3{
+    order:4;
+    align-self: flex-start;
+}
+#i4{
+    order:3;
+    align-self: stretch;
+}
+#i5{
+    order:2;
+    align-self: center;
+}
+#i6{
+    order:1;
+    align-self: flex-start;
+}

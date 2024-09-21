@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+    flex-flow: row nowrap;
+}
+.item{ 
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+#i1{   
+    flex: 0 1 250px;
+}
+#i2{ 
+    flex: 0 1 250px;
+}
+#i3{
+    flex: 0 1 250px;
+}
+
+/* 
+        grow | shink | basis
+flex  :   0      1     auto === flex : inicial
+
+*/
+
+

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+    flex-flow: row wrap;
+    height: 20vh;
+}
+.item{ 
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis:150px;  
+}
+
